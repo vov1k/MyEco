@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layMain">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layTop"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDebet"
+            android:layout_weight="1"
+            android:textColor="@color/clDarkGreen"
+            android:gravity="center"
+            android:textSize="@dimen/tzMainDigits" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvKredit"
+            android:layout_weight="1"
+            android:textColor="@color/clDarkRed"
+            android:gravity="center"
+            android:textSize="@dimen/tzMainDigits" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layBottom"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibDebet"
+            android:src="@drawable/wallet"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:contentDescription="@string/cdDebet" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibkredit"
+            android:src="@drawable/money"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:contentDescription="@string/cdKredit" />
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/stats_9018"
+        android:layout_weight="1"
+        android:contentDescription="@string/cdAnalitica" />
+
+
+</LinearLayout>

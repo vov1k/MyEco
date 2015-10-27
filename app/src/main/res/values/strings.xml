@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyEco</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cdDebet">Плюсануть доход</string>
+    <string name="cdKredit">Плюсануть расход</string>
+    <string name="cdAnalitica">Аналитические данные</string>
+</resources>
