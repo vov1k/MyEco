@@ -74,5 +74,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 ts.makeText(this,"Нажали кномпку аналитики", Toast.LENGTH_SHORT);
                 break;
         }
+        ts.show();
     }
 }
