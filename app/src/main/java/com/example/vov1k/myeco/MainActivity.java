@@ -62,18 +62,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        Toast ts = new Toast(this);
         switch(v.getId()){
             case R.id.ibDebet:
-                ts.makeText(this,"Нажали кномпку дебета", Toast.LENGTH_SHORT);
+                Toast tsD = Toast.makeText(this,"Нажали кномпку дебета", Toast.LENGTH_SHORT);
+                tsD.show();
                 break;
             case R.id.ibkredit:
-                ts.makeText(this,"Нажали кномпку кредита", Toast.LENGTH_SHORT);
+                Toast tsK = Toast.makeText(this,"Нажали кномпку кредита", Toast.LENGTH_SHORT);
+                tsK.show();
                 break;
             case R.id.imageButton:
-                ts.makeText(this,"Нажали кномпку аналитики", Toast.LENGTH_SHORT);
+                Toast tsA = Toast.makeText(this,"Нажали кномпку аналитики", Toast.LENGTH_SHORT);
+                tsA.show();
                 break;
         }
-        ts.show();
     }
 }
